@@ -1,0 +1,125 @@
+:root {
+    --first-box: hsl(31, 77%, 52%); /* color for first box */
+    --second-box:hsl(184, 100%, 22%); /* color for second box */
+    --third-box: hsl(179, 100%, 13%); /* color for third box */
+    --main-color: hsl(0, 0%, 95%) ; /* color for body, paragraph, buttons, headings */
+}
+
+body {
+    background-color: var(--main-color);
+    
+    
+}
+
+.big-box {
+    margin: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    
+    
+    
+  
+   
+}
+.box1, .box2, .box3 {
+    padding: 2rem;
+    max-width: 225px;
+    min-width: 225px;
+    max-height: 18rem;
+    text-align: left;
+
+
+}
+
+
+
+.box1 {
+    background-color: var(--first-box);
+    
+}
+.box2 {
+    background-color: var(--second-box);
+       
+}
+.box3 {
+    background-color: var(--third-box);
+    
+}
+img{
+    padding-bottom: 1rem;
+}
+
+h2 {
+    color: var(--main-color);
+    font-family: 'Big Shoulders Display', cursive;
+    text-transform: uppercase;
+    padding: 0;
+    margin: 0;
+
+}
+
+p {
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 15px;
+    font-family: 'Lexend Deca', sans-serif;
+    padding: .5rem 0;
+    max-width: 100%;
+}
+div button {
+    background-color: var(--main-color);
+    font-size: 15px;
+    font-family: 'Lexend Deca', sans-serif;
+    border-radius: 2rem;
+    border: 2px solid transparent;
+    padding: .75rem 1.25rem;
+}
+.button1 {
+    color: var(--first-box);
+
+}
+.button2 {
+    color: var(--second-box);
+
+}
+.button3 {
+    color: var(--third-box);
+
+}
+
+.button1:hover {
+    color: var(--main-color);
+    background-color: var(--first-box);
+    border: 2px solid var(--main-color);
+    cursor: pointer;
+}
+.button2:hover {
+    color: var(--main-color);
+    background-color: var(--second-box);
+    border: 2px solid var(--main-color);
+    cursor: pointer;
+}
+.button3:hover {
+    color: var(--main-color);
+    background-color: var(--third-box);
+    border: 2px solid var(--main-color);
+    cursor: pointer;
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%);
+}
+
+@media (max-width: 925px) {
+    .big-box {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+}
+
