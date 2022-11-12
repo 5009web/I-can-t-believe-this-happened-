@@ -78,7 +78,7 @@ Need to learn how to:
 
 ## Author
 
-- Frontend Mentor - [](https://www.frontendmentor.io/profile/5009web)
+- 5009web - [](https://www.frontendmentor.io/profile/5009web)
 
 
 
