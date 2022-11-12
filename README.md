@@ -32,8 +32,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [] (https://github.com/5009web/I-can-t-believe-this-happened-.git)
-- Live Site URL: [](https://5009web.github.io/I-can-t-believe-this-happened-/)
+- Solution URL: https://github.com/5009web/I-can-t-believe-this-happened-.git
+- Live Site URL: https://5009web.github.io/I-can-t-believe-this-happened-
 
 ## My process
   1. Build out html and add classes.
@@ -73,12 +73,12 @@ Need to learn how to:
 
 ### Useful resources
 
-- Google - [] (https://www.google.com) 
-- W3 Schools - [] (https://www.w3schools.com/) 
+- Google - https://www.google.com
+- W3 Schools - https://www.w3schools.com
 
 ## Author
 
-- 5009web - [](https://www.frontendmentor.io/profile/5009web)
+- 5009web - https://www.frontendmentor.io/profile/5009web
 
 
 
